@@ -1,0 +1,42 @@
+APUNTES JAVA - PERSISTENCIA EN FICHEROS (MP 0486)
+=================================================
+
+Cómo usarlo: abre la carpeta en VS Code. Cada .java se ejecuta con
+    java NombreDelFichero.java
+(los que crean ficheros los dejan en la carpeta desde donde ejecutas).
+
+QUÉ HAY EN CADA FICHERO
+-----------------------
+Librerias.java              Imports según lo que uses (java.io.*, java.util.*, DOM, SAX, JAXB)
+FileYDirectorios.java       00 File básico | 01 Crear directorio y fichero | 02 Listar (list / listFiles, recursivo)
+FicherosDeTexto.java        03 Leer línea a línea | 04 Leer carácter a carácter | 05 Escribir (sobrescribir)
+                            06 Escribir (añadir) | 07 Leer CSV con split(";") | recetas: más puntos, sumar, buscar, menú
+BinariosYSerializacion.java 08 FileOutputStream | 09 FileInputStream | 10 DataOutputStream | 11 DataInputStream
+                            12 Clase Serializable | 13 ObjectOutputStream | 14 ObjectInputStream + EOFException
+                            guardar/leer el ArrayList entero | "añadir" = leer todo, añadir y reescribir
+AccesoAleatorio.java        15 Escribir registros | 16 Leer registro con seek | 17 Modificar registro
+XmlYExcepciones.java        18 DOM leer | 19 DOM crear | SAX con handler | 20 try-catch-finally | 21 throws
+                            JAXB (comentado: necesita dependencia)
+MenuPersistencia.java       22 Plantilla rápida: menú + leer / escribir / añadir en fichero.txt
+Contactes.java              PR2: agenda de contactos (menú, añadir, listar, cercar)
+ApuntesExtra.java           PR5: txt -> objetos -> XML (DOM) y XML -> txt | comparar dos ficheros
+                            MODIFICAR un XML con DOM (cambiar, borrar, añadir nodo)
+                            Data*Stream con varios registros hasta EOFException
+
+REGLAS QUE MÁS CONVIENE RECORDAR
+--------------------------------
+1. Texto: Reader / Writer
+2. Binario: InputStream / OutputStream
+3. Texto línea a línea: BufferedReader + readLine()
+4. Texto escritura: BufferedWriter + write() + newLine()
+5. FileWriter("fichero.txt") -> sobrescribe
+6. FileWriter("fichero.txt", true) -> añade al final
+7. read() termina con -1
+8. readLine() termina con null
+9. ObjectInputStream (y DataInputStream) terminan normalmente con EOFException
+10. RandomAccessFile usa seek()
+11. En acceso aleatorio el registro debe tener tamaño fijo
+12. try-with-resources cierra automáticamente el fichero
+13. Los streams deben cerrarse; try-with-resources es la forma recomendada
+14. EOFException y FileNotFoundException van ANTES que IOException en los catch
+15. Strings con equals(), nunca con ==

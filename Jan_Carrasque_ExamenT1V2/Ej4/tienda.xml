@@ -1,0 +1,16 @@
+<tienda>
+<nombre>Tienda Informàtica Terrassa</nombre>
+<encargado>Jordi Soler</encargado>
+<productos>
+<producto
+categoria="accesorio"><nombre>Teclado</nombre><precio>25.90</precio></producto>
+<producto
+categoria="hardware"><nombre>Monitor</nombre><precio>149.99</precio></producto>
+<producto
+categoria="accesorio"><nombre>Ratón</nombre><precio>12.50</precio></producto>
+<producto categoria="hardware"><nombre>Disco
+SSD</nombre><precio>64.00</precio></producto>
+<producto
+categoria="accesorio"><nombre>Auriculares</nombre><precio>39.95</precio></producto>
+</productos>
+</tienda>

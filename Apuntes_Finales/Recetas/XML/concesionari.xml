@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dealership name="Premium Motors" location="Barcelona">
+    <inventory>
+        <!-- Cotxe 1 -->
+        <car id="C001" status="available">
+            <brand>Toyota</brand>
+            <model>Corolla</model>
+            <year>2024</year>
+            <type>Sedan</type>
+            <engine fuel="Hybrid">1.8L</engine>
+            <price currency="EUR">28500</price>
+            <features>
+                <feature>Apple CarPlay</feature>
+                <feature>Lane Assist</feature>
+            </features>
+        </car>
+
+        <!-- Cotxe 2 -->
+        <car id="C002" status="available">
+            <brand>Tesla</brand>
+            <model>Model Y</model>
+            <year>2023</year>
+            <type>SUV</type>
+            <engine fuel="Electric">Dual Motor</engine>
+            <price currency="EUR">45900</price>
+            <features>
+                <feature>Autopilot</feature>
+                <feature>Panoramic Roof</feature>
+                <feature>Heated Seats</feature>
+            </features>
+        </car>
+
+        <!-- Cotxe 3 -->
+        <car id="C003" status="reserved">
+            <brand>Volkswagen</brand>
+            <model>Golf</model>
+            <year>2022</year>
+            <type>Hatchback</type>
+            <engine fuel="Petrol">1.5 TSI</engine>
+            <price currency="EUR">24200</price>
+            <features>
+                <feature>Digital Cockpit</feature>
+                <feature>Park Assist</feature>
+            </features>
+        </car>
+
+        <!-- Cotxe 4 -->
+        <car id="C004" status="available">
+            <brand>BMW</brand>
+            <model>X3</model>
+            <year>2024</year>
+            <type>SUV</type>
+            <engine fuel="Diesel">2.0d xDrive</engine>
+            <price currency="EUR">58000</price>
+            <features>
+                <feature>Leather Seats</feature>
+                <feature>Head-up Display</feature>
+                <feature>Ambient Lighting</feature>
+            </features>
+        </car>
+
+        <!-- Cotxe 5 -->
+        <car id="C005" status="sold">
+            <brand>Ford</brand>
+            <model>Mustang Mach-E</model>
+            <year>2023</year>
+            <type>Crossover</type>
+            <engine fuel="Electric">Extended Range</engine>
+            <price currency="EUR">52000</price>
+            <features>
+                <feature>360 Camera</feature>
+                <feature>Bang &amp; Olufsen Sound</feature>
+            </features>
+        </car>
+    </inventory>
+</dealership>

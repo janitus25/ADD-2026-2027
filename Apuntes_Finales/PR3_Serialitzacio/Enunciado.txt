@@ -1,0 +1,13 @@
+Enunciado
+Guardar i recuperar una col·lecció d'objectes del teu domini (jugadors, llibres, pel·lícules...) en unfitxer binari.
+
+QUÈ HAS DE LLIURAR
+1. Projecte Java amb la classe del model, la de desar i la de llegir. El fitxer .dat generat.
+2. El projecte Java al teu repositori. Una captura de l'execució sobre una carpeta amb subcarpetes.
+
+Passos
+1. Crea la classe del teu model amb quatre atributs i que implementi Serializable.
+2. Omple un ArrayList amb sis objectes.
+3. Desa la llista sencera en un fitxer .dat. Prova les dues opcions: objecte a objecte i escrivint l'ArrayList d'un sol cop.
+4. Recupera'l en un altre programa i mostra'l.
+5. Afegeix un atribut nou a la classe i torna a llegir el fitxer antic. Explica què passa.

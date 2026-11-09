@@ -1,0 +1,2 @@
+boligrafo;2.0;50
+lapiz;1.5;20

@@ -1,0 +1,3 @@
+javac PR3_Desar.java PR3_Llegir.java Llibre.java
+java PR3_Desar
+java PR3_Llegir

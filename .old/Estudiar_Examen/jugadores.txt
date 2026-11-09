@@ -1,0 +1,6 @@
+Paco;20;1000
+Ariel;21;5000
+Carlos;33;5
+Juan;46;46454
+Jordi;8;9
+Pep;89;16559

@@ -1,0 +1,2 @@
+javac Npc.java Gestor.java
+java Gestor

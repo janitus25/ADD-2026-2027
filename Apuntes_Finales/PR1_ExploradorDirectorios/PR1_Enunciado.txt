@@ -1,0 +1,13 @@
+Objectiu
+
+Escriure un programa que rebi una ruta per paràmetre i mostri un informe del seu contingut, distingint fitxers i carpetes.
+
+QUÈ HAS DE LLIURAR
+El projecte Java al teu repositori. Una captura de l'execució sobre una carpeta amb subcarpetes.
+
+Passos
+1. Comprova que la ruta existeix i és un directori. Si no, avisa l'usuari i acaba amb elegància.
+2. Recorre el contingut amb listFiles().
+3. Per a cada element mostra: nom, tipus, mida en bytes i si es pot escriure.
+4. Al final, mostra el total d'elements i la suma de mides de tots els fitxers.
+5. Ampliació: fes-ho recursiu per baixar també dins de les subcarpetes.

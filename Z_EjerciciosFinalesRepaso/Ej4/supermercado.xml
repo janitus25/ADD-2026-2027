@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermercado>
+    <nombre>Supermercados Ahorro</nombre>
+    <gerente>Carles Puig</gerente>
+    <productos>
+        <producto categoria="Lacteos">
+            <nombre>Leche Entera</nombre>
+            <precio>1.20</precio>
+        </producto>
+        <producto categoria="Frutas">
+            <nombre>Manzanas</nombre>
+            <precio>2.10</precio>
+        </producto>
+        <producto categoria="Lacteos">
+            <nombre>Queso Crianza</nombre>
+            <precio>4.50</precio>
+        </producto>
+        <producto categoria="Frutas">
+            <nombre>Plátanos</nombre>
+            <precio>1.80</precio>
+        </producto>
+    </productos>
+</supermercado>

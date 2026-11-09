@@ -1,0 +1,13 @@
+Objectiu
+Construir una petita agenda que guardi els contactes en un fitxer de text separat per punt i coma i els torni a llegir en arrencar.
+
+QUÈ HAS DE LLIURAR
+1. Projecte Java.
+2. El fitxer contactes.txt d'exemple amb un mínim de cinc contactes.
+
+Passos
+1. Defineix el format de línia: nom;telefon;correu
+2. Menú per consola: afegir, llistar, cercar per nom i sortir.
+3. En afegir, escriu la línia al final del fitxer (FileWriter en mode append).
+4. En llistar, llegeix amb BufferedReader i parteix cada línia amb split(";").
+5. Gestiona el cas «el fitxer encara no existeix» sense que el programa peti.

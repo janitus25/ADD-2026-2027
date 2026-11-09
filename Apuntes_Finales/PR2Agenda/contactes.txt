@@ -1,0 +1,5 @@
+Anna Puig;600111222;anna@correo.com
+Pere Roca;600333444;pere@correo.com
+Marta Serra;600555666;marta@correo.com
+Joan Vidal;600777888;joan@correo.com
+Laia Bosch;600999000;laia@correo.com

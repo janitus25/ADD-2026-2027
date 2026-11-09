@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tienda>
+    <nombre>TechStore</nombre>
+    <productos>
+        <producto id="1">
+            <articulo>Ratón</articulo>
+            <precio>25.50</precio>
+        </producto>
+        <producto id="2">
+            <articulo>Teclado</articulo>
+            <precio>45.00</precio>
+        </producto>
+    </productos>
+</tienda>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dealership location="Barcelona" name="Premium Motors">
+    <inventory>
+        <car id="C001" status="available">
+            <brand>Toyota</brand>
+            <model>Corolla</model>
+            <engine fuel="Hybrid">1.8L</engine>
+            <features>
+                <feature>Apple CarPlay</feature>
+                <feature>Lane Assist</feature>
+            </features>
+        </car>
+    </inventory>
+</dealership>
